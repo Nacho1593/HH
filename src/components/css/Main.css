@@ -1,0 +1,175 @@
+/* Los colores a utilizar:
+
+- Fondo: #F9FAFB
+- Naranja: #ec7000
+- Azul: #106EB0
+- Negro: #252220
+- Gris: #5D5750
+- Gris Claro (items de la lista de la tarjeta de la derecha): #89837F
+
+Sombra de la tarjeta y del círculo del ícono en la tarjeta:
+0px 8px 16px rgba(86, 80, 76, 0.04), 0px 2px 16px rgba(86, 80, 76, 0.04), 0px 1px 4px rgba(86, 80, 76, 0.04) */
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #f9fafb;
+}
+
+/* Resets */
+* {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 0;
+  outline: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #252220;
+  font-weight: bold;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+  color: #0090d9;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0099ff;
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+}
+
+ul,
+li {
+  list-style-type: none;
+  color: #89837f;
+}
+
+.card {
+  width: 20rem;
+  box-shadow: 0px 8px 16px rgba(86, 80, 76, 0.04),
+    0px 2px 16px rgba(86, 80, 76, 0.04), 0px 1px 4px rgba(86, 80, 76, 0.04);
+}
+
+.card-text {
+  font-size: 0.938rem;
+}
+
+.alert-text {
+  color: red;
+  font-size: 0.75rem;
+}
+
+.left {
+  margin-right: 2rem;
+  padding-bottom: 1rem;
+}
+
+.left-input {
+  border: 1px solid #ec7000;
+  border-radius: 4px;
+}
+
+.form-control-left {
+  border-color: #ec7000;
+}
+
+.right ul {
+  padding-left: 0px !important;
+}
+
+.right li {
+  color: #89837f;
+}
+
+.right-icon-home {
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 0.688rem;
+  z-index: 1;
+  background-color: white;
+  left: 2.5rem !important;
+  top: 8.438rem !important;
+  box-shadow: 0px 8px 16px rgba(86, 80, 76, 0.04),
+    0px 2px 16px rgba(86, 80, 76, 0.04), 0px 1px 4px rgba(86, 80, 76, 0.04);
+}
+
+.right-card-img {
+  background-image: url(../assets/img/imagen.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 10.625rem;
+  position: relative;
+  outline: 0;
+}
+
+.rigth-text {
+  color: #5d5750;
+}
+
+.btn-enviar {
+  background-color: #ec7000;
+  color: white;
+  padding: 0.625rem;
+  padding-inline: 2rem;
+}
+
+.right-btn-quiero {
+  color: #106eb0;
+}
+
+.p-en-card {
+  padding-left: 0.625rem;
+  font-size: 0.938rem;
+}
+
+.btn-outline-primary {
+  color: #106eb0;
+  border-color: #106eb0;
+}
+
+.form-control:focus {
+  color: #5d5750;
+  background-color: #fff;
+  border-color: #ec7000;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(255, 163, 108, 0.25);
+}
+
+.title-size {
+  font-size: 1.688rem;
+}
+
+.text-success-form {
+  font-size: 1.438rem;
+  font-weight: bold;
+}
+
+.text-correo {
+  font-size: 0.938rem;
+  color: #5d5750;
+}
