@@ -111,7 +111,7 @@ function Main() {
         <div className="col-md-6 m-2 position-relative mx-auto">
           <IconHome />
           <div className="card mb-3">
-            <img className="card-img-top right-card-img rounded-top" />
+            <img className="card-img-top right-card-img rounded-top"/>
             <div className="card-body">
               <h5 className="card-title pt-2 fw-bold">lorem ipsum dolor</h5>
               <p className="card-text rigth-text text-size-form">
